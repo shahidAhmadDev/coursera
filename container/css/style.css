@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.headerclass{
+    background-color: gray;
+}
+.headerclass .navbar-brand{
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu .container-fluid{
+    background-color: gray;
+}
+.headerclass .nav-item{
+    display: none;
+}
+
+@media (max-width:769px) {
+    .headerclass .nav-item{
+        display: block;
+        text-align: center;
+        background-color: white;
+        color: black;
+    }
+    
+}
+
